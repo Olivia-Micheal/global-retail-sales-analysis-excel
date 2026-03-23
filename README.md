@@ -1,6 +1,21 @@
 # global-retail-sales-analysis-excel
 Global retail sales analysis using Excel, Power Query, Power Pivot, and DAX to uncover revenue drivers, business risks, and the causes behind a major revenue collapse.
+## Table of Contents
 
+1. [Project Overview](#1-project-overview)
+2. [Business Problem](#2-business-problem)
+3. [Dataset Overview](#3-dataset-overview)
+4. [Tools & Technologies](#4-tools--technologies)
+5. [Data Cleaning & Transformation (Power Query)](#5-data-cleaning--transformation-power-query)
+6. [Data Model (Power Pivot)](#6-data-model-power-pivot)
+7. [Analytical Approach](#7-analytical-approach)
+8. [Key Insights](#8-key-insights)
+9. [Dashboard Design](#9-dashboard-design)
+10. [Business Findings](#10-business-findings)
+11. [Recommendations](#11-recommendations)
+12. [Limitations of the Analysis](#12-limitations-of-the-analysis)
+13. [Conclusion](#13-conclusion)
+14. [Author & Contact](#14-author--contact)
 
 ## 1. Project Overview
 
@@ -449,30 +464,12 @@ Working through this project reinforced an important lesson for me as a junior a
 This project focused not only on building a dashboard, but on using data to understand how and why business performance changes over time.
 
 
-## 4. Tools & Technologies
+## 14. Author & Contact
 
-This project was developed entirely in Microsoft Excel, using several advanced Excel components to build a structured analytical workflow.
+Olivia Michael
 
-The following tools were used:
+Aspiring Data Analyst focused on using data to uncover business risks, performance patterns, and decision-making insights.
 
-Microsoft Excel  
-Primary environment used for data analysis, modeling, and dashboard development.
-
-Power Query  
-Used to import raw CSV tables, clean the dataset, standardize formats, correct inconsistencies, and prepare the data before modeling.
-
-Power Pivot  
-Used to build the relational data model and connect the dataset tables using a star schema structure.
-
-DAX (Data Analysis Expressions)  
-Used to create calculated measures such as revenue totals, profit calculations, year-over-year performance, and average order value.
-
-Excel Pivot Tables & Pivot Charts  
-Used to perform exploratory analysis and support the dashboard visualizations.
-
-Excel Dashboard Design  
-Used to build the final interactive dashboard, including KPI cards, trend charts, product performance visuals, and geographic revenue comparisons.
-
-Together, these tools enabled the construction of a structured analytical model capable of investigating revenue trends, customer behavior, product performance, and geographic market exposure.
-growth.
-
+LinkedIn: [Olivia Anetoh](https://www.linkedin.com/in/olivia-anetoh-955b94328)  
+GitHub: [Olivia-Michael](https://github.com/Olivia-Michael)
+Email: anetohchinecherem@gmail.com
