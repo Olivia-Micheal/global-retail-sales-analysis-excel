@@ -92,3 +92,50 @@ The following transformations were performed:
 These preparation steps ensured that the dataset was clean, structured, and suitable for building a reliable analytical data model.
 
 ### Power Query Environment
+
+<img width="958" height="501" alt="power_query_tables" src="https://github.com/user-attachments/assets/572a5150-3100-4fe5-8e37-ef6de7d45ee0" />
+
+
+## 6. Data Model (Power Pivot)
+
+After the data cleaning process, the tables were loaded into Power Pivot where a relational data model was created to support efficient analytical queries.
+
+The model follows a star schema design, which separates transactional data from descriptive attributes. This structure improves performance and allows flexible analysis across multiple dimensions.
+
+### Fact Table
+
+SalesFact
+
+The Sales table serves as the central fact table containing transactional records including revenue, order details, and customer purchases.
+
+### Dimension Tables
+
+The fact table is connected to several dimension tables that provide descriptive context for analysis:
+
+- CustomersDIM – customer information used to analyze purchasing behavior
+- ProductsDIM – product attributes used to evaluate product performance
+- StoresDIM – store locations used for geographic analysis
+- Exchange_RatesDIM – currency conversion data used to standardize revenue values
+- Date Table – custom calendar table used to enable time-intelligence analysis
+
+### Data Model Relationships
+
+Each dimension table is connected to the Sales fact table using primary and foreign key relationships. This structure enables analysis across several analytical perspectives including:
+
+- Revenue trends over time
+- Product performance
+- Customer purchasing patterns
+- Geographic market exposure
+
+- ### Data Model Diagram
+
+<img width="960" height="479" alt="data_model_relationships" src="https://github.com/user-attachments/assets/66644c9a-ba9c-473c-8da7-a1385e56a50c" />
+
+Power Pivot relationship diagram showing the star schema used in the analytical model.
+
+### DAX Measures
+
+<img width="311" height="362" alt="dax_measures" src="https://github.com/user-attachments/assets/3b1722e2-cad6-44f8-9c94-e96d5e0f636f" />
+
+Custom DAX measures were created to calculate key performance metrics such as total revenue, average order value, and year-over-year growth.
+
